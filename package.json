@@ -6,11 +6,13 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "start": "next start -p 8000"
+    "start": "next start -p 8000",
+    "deploy": "next build && next export && touch out/.nojekyll && push-dir --dir=out --branch=master --cleanup --verbose --remote=github-io"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2",
+    "push-dir": "^0.4.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
