@@ -1,16 +1,15 @@
-import Header from './Header'
-
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
-}
+import Head from 'next/head';
 
 const Layout = (props) => (
-  <div style={layoutStyle}>
-    <Header />
+  <div>
+    <Head>
+      <title>Startender App</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charset="UTF-8" />
+    </Head>
     {props.children}
   </div>
-)
+);
 
-export default Layout
+export default Layout;
