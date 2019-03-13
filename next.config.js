@@ -4,5 +4,5 @@ module.exports = {
       '/': { page: '/' },
     };
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/{reponame}' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/landing' : '',
 };
