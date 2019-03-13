@@ -7,12 +7,11 @@
     "build": "next build",
     "export": "next export",
     "start": "next start -p 8000",
-    "deploy": "next build && next export && touch out/.nojekyll && push-dir --dir=out --branch=master --cleanup --verbose --remote=github-io"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2",
-    "push-dir": "^0.4.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
