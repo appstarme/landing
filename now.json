@@ -1,5 +1,10 @@
 {
   "name": "startender-landing",
+  "alias": [
+    "get.startenderapp.com",
+    "startenderapp.com",
+    "startenderapp.now.sh"
+  ],
   "version": 2,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
