@@ -6,8 +6,8 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "start": "next start -p 8000",
-    "production": "npx now && npx now alias"
+    "deploy": "npm run build && npm run export",
+    "start": "next start -p 8000"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
