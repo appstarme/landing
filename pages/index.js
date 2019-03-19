@@ -14,7 +14,7 @@ const Index = () => (
       <section className="right-section full-height">
         <a className="logo" href="#">
           <img
-            src="static/logo.svg"
+            src="static/startenderlogo.png"
             alt="Startender App"
             style={{ height: 100 }}
           />
@@ -29,16 +29,57 @@ const Index = () => (
               <p className="desc">We're almost ready to start. And you?</p>
 
               <div className="email-input-area">
-                <form method="post">
-                  <input
-                    className="email-input"
-                    name="email"
-                    type="text"
-                    placeholder="Enter your email"
-                  />
-                  <button className="submit-btn" name="submit" type="submit">
-                    <b>NOTIFY ME</b>
-                  </button>
+                <form
+                  action="https://starmeapp.us20.list-manage.com/subscribe/post?u=81240b9e0510742269bc1b333&amp;id=e42596349b"
+                  method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                  className="validate"
+                  target="_blank"
+                  novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <div className="mc-field-group">
+                      <input
+                        type="email"
+                        name="EMAIL"
+                        className="email email-input"
+                        id="mce-EMAIL"
+                        placeholder="Enter your email"
+                        required
+                      />
+                    </div>
+                    <div className="clear">
+                      <input
+                        className="submit-btn"
+                        type="submit"
+                        value="NOTIFY ME"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                      />
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div
+                        className="response"
+                        id="mce-error-response"
+                        style={{ display: 'none' }}
+                      />
+                      <div
+                        className="response"
+                        id="mce-success-response"
+                        style={{ display: 'none' }}
+                      />
+                    </div>
+                    <div
+                      style={{ position: 'absolute', left: '-5000px' }}
+                      aria-hidden="true">
+                      <input
+                        type="text"
+                        name="b_81240b9e0510742269bc1b333_e42596349b"
+                        tabindex={-1}
+                        value=""
+                      />
+                    </div>
+                  </div>
                 </form>
               </div>
 
