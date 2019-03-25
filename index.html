@@ -78,10 +78,14 @@
         <div class="container">
           <!-- Brand -->
           <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+            <a
+              class="navbar-item"
+              href="/"
+              style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+            >
               <img
-                src="assets/images/startenderlogo.png"
-                style="border: none;"
+                src="assets/images/logos/startenderlogo.svg"
+                style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
                 alt="Startender App"
               />
             </a>
@@ -502,7 +506,11 @@
           <div class="column">
             <div class="footer-column">
               <div class="footer-logo">
-                <img src="assets/images/startenderlogo.png" alt="" />
+                <img
+                  src="assets/images/logos/startenderlogo-withtext.svg"
+                  style="height: 120px; width: auto;"
+                  alt="Startender App"
+                />
               </div>
               <div class="footer-header">
                 <nav class="level is-mobile">
@@ -547,6 +555,20 @@
     <script src="assets/js/auth.js"></script>
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/main.js"></script>
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"81240b9e0510742269bc1b333","lid":"e42596349b","uniqueMethods":true}) })</script>
+    <script
+      type="text/javascript"
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      data-dojo-config="usePlainJson: true, isDebug: false"
+    ></script
+    ><script type="text/javascript">
+      window.dojoRequire(['mojo/signup-forms/Loader'], function(L) {
+        L.start({
+          baseUrl: 'mc.us20.list-manage.com',
+          uuid: '81240b9e0510742269bc1b333',
+          lid: 'e42596349b',
+          uniqueMethods: true,
+        });
+      });
+    </script>
   </body>
 </html>
