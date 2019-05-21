@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>
+      Startender App :: Blog
+    </title>
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta
+      name="keywords"
+      content="bartender, local, startender, bottle service, community, bar, drink, nightlife, night out, barista"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:image:width" content="90" />
+    <meta property="og:image:height" content="90" />
+    <meta
+      property="og:description"
+      content="Imagine a world where you know someone who works in every bar, restaurant and nightlife. startenders can reach out and send you special deals daily, invite you in for a drink, get you access to clubs and most importantly establish human connection!"
+    />
+    <meta
+      property="og:title"
+      content="Startender App - Find Your Local Startenders"
+    />
+    <meta property="og:url" content="https://startenderapp.com" />
+    <meta property="og:image" content="https://startenderapp.com/og.jpg" />
+
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/bulma.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/core.css" />
+    <style>
+      .startender-font-color {
+        color: #49cfd8 !important;
+      }
+      .startender-color {
+        background-color: #49cfd8 !important;
+      }
+      .startender-color-border {
+        border-color: #49cfd8 !important;
+      }
+      .startender-gradient {
+        background: linear-gradient(to top, #60dee4, #49cfd8) !important;
+      }
+      .startender-gradient-border {
+        border-color: linear-gradient(to top, #60dee4, #49cfd8) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pageloader startender-color startender-gradient"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Hero (Parallax) and nav -->
+    <div
+    class="hero parallax is-cover is-relative is-default is-bold"
+    data-background="assets/images/background.jpg"
+    data-color="#000"
+    data-color-opacity="0.3"
+    data-position-x="center"
+    data-demo-background="assets/images/startup/startup.jpg"
+    >
+      <nav
+        class="navbar navbar-wrapper navbar-fade navbar-light is-transparent"
+      >
+        <div class="container">
+          <!-- Brand -->
+          <div class="navbar-brand">
+            <a
+              class="navbar-item"
+              href="/"
+              style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+            >
+              <img
+                src="assets/images/logos/startenderlogo.svg"
+                style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+                alt="Startender App"
+              />
+            </a>
+
+            <!-- Responsive toggle -->
+            <div class="custom-burger" data-target="">
+              <a id="" class="responsive-btn" href="javascript:void(0);">
+                <span class="menu-toggle">
+                  <span class="icon-box-toggle">
+                    <span class="rotate">
+                      <i class="icon-line-top"></i>
+                      <i class="icon-line-center"></i>
+                      <i class="icon-line-bottom"></i>
+                    </span>
+                  </span>
+                </span>
+              </a>
+            </div>
+            <!-- /Responsive toggle -->
+          </div>
+
+          <!-- Navbar menu -->
+          <div class="navbar-menu">
+            <!-- Navbar Start -->
+            <div class="navbar-start">
+              <div class="navbar-item is-active">
+                <a
+                  href="./about.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  About
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  href="./blog.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  Blog
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  href="./merch.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  Merchandise
+                </a>
+              </div>
+            </div>
+
+            <!-- Navbar end -->
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a
+                  href="mailto:heystartender@startenderapp.com"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-envelope"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/StartenderApp"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://twitter.com/heystartender"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-twitter"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://instagram.com/heystartender"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-instagram"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero text -->
+      <div id="main-hero" class="hero-body pt-80 pb-80">
+        <div class="container has-text-centered">
+          <div class="columns is-vcentered">
+            <div class="column is-6 is-offset-3 has-text-centered">
+              <h1 class="title main-title text-bold is-2">
+                Startender Blog
+              </h1>
+              <h2 class="subtitle is-4 light-text pt-10 pb-10">
+                Stories
+              </h2>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Hero text -->
+    </div>
+    <!-- /Hero and nav -->
+<!-- Blog post list section -->
+<section class="section is-medium blog-section section-light-grey">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                <!-- Blog post -->
+                <div class="flex-card is-post is-pulled-top light-bordered">
+                    <!-- Post header -->
+                    <div class="header has-background-image" data-background="https://via.placeholder.com/1200x300"
+                        data-demo-background="assets/images/agency/posts/post1.jpeg">
+                        <div class="title-wrapper">
+                            <h2 class="post-title">How design has become critical in business Projects</h2>
+                            <h4 class="post-subtitle">Real insights about real businesses</h4>
+                        </div>
+                        <div class="author-avatar"><img src="https://via.placeholder.com/250x250" alt=""
+                                data-demo-src="assets/images/agency/avatars/alan.jpg"></div>
+                        <button class="like fab-btn mini">
+                            <span class="like-wrapper">
+                                <i class="material-icons unliked">favorite_border</i>
+                                <i class="material-icons liked">favorite</i>
+                                <span class="like-overlay"></span>
+                            </span>
+                        </button>
+                        <!-- Header overlay -->
+                        <div class="header-overlay"></div>
+                    </div>
+                    <!-- Post body -->
+                    <div class="post-body">
+                        <div> <span>by</span> <a class="author-name" href="#"><b>Alan Maynard</b></a></div>
+                        <small>Posted in <a href="category.html">Web Design</a> on oct 20 2017</small>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet ...</p>
+                        <div class="content-footer">
+                            <div class="footer-details">
+                                <a class="button is-link btn-upper" href="agency-post-sidebar.html">Read more</a>
+                                <div class="likes-count ml-auto">
+                                    <i class="im im-icon-Heart-2"></i>
+                                    <span class="stat">32</span>
+                                </div>
+                                <div class="comments-count">
+                                    <i class="im im-icon-Speach-Bubble11"></i>
+                                    <span class="stat">8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Blog post -->
+
+                <!-- Blog post -->
+                <div class="flex-card is-post light-bordered">
+                    <!-- Post header -->
+                    <div class="header has-background-image" data-background="https://via.placeholder.com/1200x300"
+                        data-demo-background="assets/images/agency/posts/post2.jpg">
+                        <div class="title-wrapper">
+                            <h2 class="post-title">5 Things you should know when planning for a new online store</h2>
+                            <h4 class="post-subtitle">Pieces of advice that will help grow your business</h4>
+                        </div>
+                        <div class="author-avatar"><img src="https://via.placeholder.com/250x250" alt=""
+                                data-demo-src="assets/images/agency/avatars/carolin.png"></div>
+                        <button class="like fab-btn mini">
+                            <span class="like-wrapper">
+                                <i class="material-icons unliked">favorite_border</i>
+                                <i class="material-icons liked">favorite</i>
+                                <span class="like-overlay"></span>
+                            </span>
+                        </button>
+                        <!-- Header overlay -->
+                        <div class="header-overlay"></div>
+                    </div>
+                    <!-- Post body -->
+                    <div class="post-body">
+                        <div> <span>by</span> <a class="author-name" href="#"><b>Marjory Cambell</b></a></div>
+                        <small>Posted in <a href="category.html">Ecommerce</a> on <a href="post.html">oct 13 2017</a></small>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet ...</p>
+                        <div class="content-footer">
+                            <div class="footer-details">
+                                <a class="button is-link btn-upper font-w-500" href="agency-post-sidebar.html">Read more</a>
+                                <div class="likes-count ml-auto">
+                                    <i class="im im-icon-Heart-2"></i>
+                                    <span class="stat">64</span>
+                                </div>
+                                <div class="comments-count">
+                                    <i class="im im-icon-Speach-Bubble11"></i>
+                                    <span class="stat">6</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Blog post -->
+
+                <!-- Blog post -->
+                <div class="flex-card is-post light-bordered">
+                    <!-- Post header -->
+                    <div class="header has-background-image" data-background="https://via.placeholder.com/1200x300"
+                        data-demo-background="assets/images/agency/posts/post3.jpeg">
+                        <div class="title-wrapper">
+                            <h2 class="post-title">Power up your SPA developments by using Vue js</h2>
+                            <h4 class="post-subtitle">A javascript framework that simplifies everything</h4>
+                        </div>
+                        <div class="author-avatar"><img src="https://via.placeholder.com/250x250" alt=""
+                                data-demo-src="assets/images/agency/avatars/marc.jpg"></div>
+                        <button class="like fab-btn mini">
+                            <span class="like-wrapper">
+                                <i class="material-icons unliked">favorite_border</i>
+                                <i class="material-icons liked">favorite</i>
+                                <span class="like-overlay"></span>
+                            </span>
+                        </button>
+                        <!-- Header overlay -->
+                        <div class="header-overlay"></div>
+                    </div>
+                    <!-- Post body -->
+                    <div class="post-body">
+                        <div> <span>by</span> <a class="author-name" href="#"><b>Marc Walters</b></a></div>
+                        <small>Posted in <a href="category.html">Javascript</a> on <a href="post.html">oct 09 2017</a></small>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia euismod urna, in gravida leo efficitur a. Sed tempus augue risus, eget faucibus urna hendrerit a. Donec pulvinar maximus dui ut porttitor. Nullam tristique tortor et ipsum tristique, ac lacinia diam faucibus. Nunc cursus massa eget consectetur laoreet ...</p>
+                        <div class="content-footer">
+                            <div class="footer-details">
+                                <a class="button is-link btn-upper font-w-500" href="agency-post-sidebar.html">Read more</a>
+                                <div class="likes-count ml-auto">
+                                    <i class="im im-icon-Heart-2"></i>
+                                    <span class="stat">17</span>
+                                </div>
+                                <div class="comments-count">
+                                    <i class="im im-icon-Speach-Bubble11"></i>
+                                    <span class="stat">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Blog post -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Blog post list section -->
+
+    <!-- Dark footer -->
+    <footer id="dark-footer" class="footer footer-light">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>Startender App</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="https"//startenderapp.com/#">Startender App</a></li>
+                <li><a href="https"//startenderapp.com/#managers">For Managers</a></li>
+                <li><a href="https"//startenderapp.com/#bartenders">For Bartenders</a></li>
+                <li><a href="https"//startenderapp.com/#business-types">For Customers</a></li>
+                <li><a href="#">Get Notified</a></li>
+                <li>
+                  <a href="mailto:heystartender@startenderapp.com"
+                    >Keep in touch</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>For</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="#bartenders">Bartenders</a></li>
+                <li><a href="#bartenders">Bottle Service</a></li>
+                <li><a href="#bartenders">Baristas</a></li>
+                <li><a href="#managers">Managers</a></li>
+                <li><a href="#business-types">Community</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>Privacy</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <img
+                  src="assets/images/logos/startenderlogo-withtext.svg"
+                  style="height: 120px; width: auto;"
+                  alt="Startender App"
+                />
+              </div>
+              <div class="footer-header">
+                <nav class="level is-mobile">
+                  <div class="level-left level-social">
+                    <a
+                      href="mailto:heystartender@startenderapp.com"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-envelope"></i></span>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/StartenderApp"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-facebook"></i></span>
+                    </a>
+                    <a
+                      href="https://instagram.com/heystartender"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-twitter"></i></span>
+                    </a>
+                    <a
+                      href="https://twitter.com/heystartender"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-instagram"></i></span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Side navigation -->
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Concatenated jQuery and plugins -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Bulkit js -->
+    <script src="assets/js/startup.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
