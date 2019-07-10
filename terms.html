@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>
+      Startender App :: Blog
+    </title>
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta
+      name="keywords"
+      content="bartender, local, startender, bottle service, community, bar, drink, nightlife, night out, barista"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:image:width" content="90" />
+    <meta property="og:image:height" content="90" />
+    <meta
+      property="og:description"
+      content="Imagine a world where you know someone who works in every bar, restaurant and nightlife. startenders can reach out and send you special deals daily, invite you in for a drink, get you access to clubs and most importantly establish human connection!"
+    />
+    <meta
+      property="og:title"
+      content="Startender App - Find Your Local Startenders"
+    />
+    <meta property="og:url" content="https://startenderapp.com" />
+    <meta property="og:image" content="https://startenderapp.com/og.jpg" />
+
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/bulma.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/core.css" />
+    <style>
+      .startender-font-color {
+        color: #49cfd8 !important;
+      }
+      .startender-color {
+        background-color: #49cfd8 !important;
+      }
+      .startender-color-border {
+        border-color: #49cfd8 !important;
+      }
+      .startender-gradient {
+        background: linear-gradient(to top, #60dee4, #49cfd8) !important;
+      }
+      .startender-gradient-border {
+        border-color: linear-gradient(to top, #60dee4, #49cfd8) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pageloader startender-color startender-gradient"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Hero (Parallax) and nav -->
+    <div
+    class="hero parallax is-cover is-relative is-default is-bold"
+    data-background="assets/images/background.jpg"
+    data-color="#000"
+    data-color-opacity="0.3"
+    data-position-x="center"
+    data-demo-background="assets/images/startup/startup.jpg"
+    >
+      <nav
+        class="navbar navbar-wrapper navbar-fade navbar-light is-transparent"
+      >
+        <div class="container">
+          <!-- Brand -->
+          <div class="navbar-brand">
+            <a
+              class="navbar-item"
+              href="/"
+              style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+            >
+              <img
+                src="assets/images/logos/startenderlogo.svg"
+                style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+                alt="Startender App"
+              />
+            </a>
+
+            <!-- Responsive toggle -->
+            <div class="custom-burger" data-target="">
+              <a id="" class="responsive-btn" href="javascript:void(0);">
+                <span class="menu-toggle">
+                  <span class="icon-box-toggle">
+                    <span class="rotate">
+                      <i class="icon-line-top"></i>
+                      <i class="icon-line-center"></i>
+                      <i class="icon-line-bottom"></i>
+                    </span>
+                  </span>
+                </span>
+              </a>
+            </div>
+            <!-- /Responsive toggle -->
+          </div>
+
+          <!-- Navbar menu -->
+          <div class="navbar-menu">
+            <!-- Navbar Start -->
+            <div class="navbar-start">
+              <div class="navbar-item is-active">
+                <a
+                  href="./about.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  About
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  href="./blog.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  Blog
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  href="./merch.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  Merchandise
+                </a>
+              </div>
+            </div>
+
+            <!-- Navbar end -->
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a
+                  href="mailto:heystartender@startenderapp.com"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-envelope"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/StartenderApp"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://twitter.com/heystartender"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-twitter"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://instagram.com/startenderapp"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-instagram"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero text -->
+      <div id="main-hero" class="hero-body pt-80 pb-80">
+        <div class="container has-text-centered">
+          <div class="columns is-vcentered">
+            <div class="column is-6 is-offset-3 has-text-centered">
+              <h1 class="title main-title text-bold is-2">
+                Terms of Service
+              </h1>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Hero text -->
+    </div>
+    <!-- /Hero and nav -->
+<!-- Blog post list section -->
+<section class="section is-medium blog-section section-light-grey">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+              <p>
+                <strong>TERMS OF SERVICE</strong>
+            </p>
+            <p>
+                Welcome to www.startenderapp<strong><em>.com</em></strong> (the "Website")
+                and the Startender mobile application (the "Application"), which are
+            operated by Startender, Inc. ("<strong>Startender</strong>", "    <strong>we</strong>" or "<strong>us</strong>"). The following terms and
+                conditions, together with any documents they expressly incorporate by
+            reference (collectively, these "<strong>Terms of Service</strong>" or "    <strong>TOS</strong>"), govern your access to and use of the Website and
+                the Application, including any content, functionality and services offered
+                by Startender, whether as a guest or a registered user and they are binding
+                on all users.
+            </p>
+            <p>
+                By using the Website and the Application, you accept and agree to abide by
+                these Terms of Service and our Privacy Policy available at [link to privacy
+                policy] incorporated herein by reference. If you do not want to agree to
+                these Terms of Service or the Privacy Policy, you should not access or use
+                the Website and the Application.
+            </p>
+            <p>
+                <strong>I. Definitions</strong>
+                .
+            </p>
+            <p>
+                1. <strong>"Service"</strong> means Startender's online platform for
+                professionals in the catering business (bartenders, servers, baristas,
+                bottle service girls, etc.).
+            </p>
+            <p>
+                2. "<strong>Professionals</strong>" shall mean any subscriber to the
+                platform that serves food and beverage to customers including but not only
+                bartenders, servers, baristas, bottle service girls, and others.
+            </p>
+            <p>
+                2. "<strong>User</strong>" means any person who uses the platform other
+                than Professionals.
+            </p>
+            <p>
+                3. "<strong>Content</strong>" means any material, existing or having
+                existed on our Website and Application in any fashion consistent with these
+                TOS from any origin and in any form whether digital, electronic, posted,
+                deleted, archived, embedded, linked or contained in any subpage of our
+                Website and Application or existing as data, designs, text, images,
+                graphics, video recording, or code whether object, source or otherwise, and
+                without limitation may generally be considered material which we have
+                provided on or as part of our Website and Application or which Users have
+                provided, posted or uploaded to it, either manually or via social networks
+                such as Facebook and LinkedIn
+            </p>
+            <p>
+                <strong>II. Minimum age requirement.</strong>
+            </p>
+            <p>
+                The Website and the Application are not intended for individuals under 14
+                years of age or the minimum required age under the local legislation of the
+                territory you are located, if such minimum age is different than 14 years
+                of age. If you are under 14, you are not authorized to use the Website and
+                the Application and will not be provided access to any features of Website
+                and the Application.
+            </p>
+            <p>
+                <strong>III. User Account. </strong>
+            </p>
+            <p>
+                3.1. <strong>User registration</strong>. To register an account with us you
+                will be prompted either to complete a website registration form, for which
+                you may be asked to provide certain registration details or other
+                information or log in through your Facebook or Instagram account. All the
+                information you provide on the Website and the Application must be
+                accurate, current and complete. You agree that all information you provide
+                to register an account shall be governed by our Privacy Policy and you
+                consent to all actions we take with respect to your information consistent
+                with our Privacy Policy.
+            </p>
+            <p>
+                3.2. <strong>Account Security</strong>. You agree to choose a strong and
+                secure password and keep your password secure and confidential. You also
+                acknowledge that your account is personal to you and agree not to provide
+                any other person with access to this Website and the Application or
+                portions of it using your user name, password or other security
+                information. You agree to notify us immediately of any unauthorized access
+                to or use of your user name or password or any other breach of security.
+                You also agree to ensure that you exit from your account at the end of each
+                session. You should use particular caution when accessing your account from
+                a public or shared computer so that others are not able to view or record
+                your password or other personal information.
+            </p>
+            <p>
+                3.3. <strong>Account Termination</strong>. We reserve the right to
+                terminate/suspend your account if we deem doing so to be necessary. You
+                agree that you release us now and forever from any liability incurred by
+                you as a result of our termination/suspension of your account and that you
+                shall indemnify, defend and otherwise hold us harmless for any liability,
+                claims, damages, liens, penalties, fines or fees (including attorney’s fees
+                and/or accounting fees) which we incur or are brought against us by any
+                party as a result, either directly or indirectly of our decision to
+                terminate your account. You acknowledge that without limitation, grounds
+                for termination of your account may include any violation of these Terms of
+                Service by you or any party using your account, the order/request of any
+                regulatory, investigatory, law enforcement, government or judicial
+                agency/entity. You understand and acknowledge that our
+                termination/suspension of your account does not require prior notice to
+                you.
+            </p>
+            <p>
+                <strong>IV. Right to Amend</strong>
+            </p>
+            <p>
+                4.1. <strong>Right to Amend the Website and the Application</strong>. We
+                reserve the right to amend the Website and the Application, and any
+                service, feature, functionality or material we provide through the Website
+                and the Application, in our sole discretion. We will not be liable if for
+                any reason all or any part of the Website and the Application are
+                unavailable at any time or for any period. From time to time, we may
+                restrict access to some parts of the Website and the Application, or the
+                entire Website and Application, to users, including paid subscribers.
+            </p>
+            <p>
+                4.2. <strong>Right to Disable Username and Password</strong>. We reserve
+                the right to disable any user name, password or other identifier, whether
+                chosen by you or provided by us, at any time if, in our opinion, you have
+                violated any provision of these Terms of Service.
+            </p>
+            <p>
+                <strong>V. Intellectual Property Rights</strong>
+            </p>
+            <p>
+                5.1. <strong>Intellectual Property Rights Ownership</strong>. The Website
+                and the Application and their entire contents, features and functionality
+                (including but not limited to all information, software, text, displays,
+                images, video and audio, and the design, selection and arrangement
+                thereof), are owned by Startender, its licensors or other providers of such
+                material and are protected by United States and international copyright,
+                trademark, patent, trade secret and other intellectual property or
+                proprietary rights laws.
+            </p>
+            <p>
+                5.2. <strong>License to Use</strong>. These Terms of Service permit you to
+                use the Website and the Application for your personal, non-commercial use
+                only. You must not reproduce, distribute, modify, create derivative works
+                of, publicly display, publicly perform, republish, download, store or
+                transmit any of the material on our Website and Application, except as
+                follows:
+            </p>
+            <p>
+                (a) Your computer, tablet or mobile device may temporarily store copies of
+                such materials in RAM incidental to your accessing and viewing those
+                materials.
+            </p>
+            <p>
+                (b) You may store files that are automatically cached by your Web browser
+                for display enhancement purposes.
+            </p>
+            <p>
+                (c) If we provide desktop, mobile or other applications for download, you
+                may download a single copy to your computer or mobile device solely for
+                your own personal, non-commercial use, provided you agree to be bound by
+                our end user license agreement for such applications.
+            </p>
+            <p>
+                5.3. <strong>Restrictions</strong>. You must not:
+            </p>
+            <p>
+                (a) Modify copies of any materials from this Website and/or Application.
+            </p>
+            <p>
+                (b) Use any illustrations, photographs, video or audio sequences or any
+                graphics separately from the accompanying text.
+            </p>
+            <p>
+                (c) Delete or alter any copyright, trademark or other proprietary rights
+                notices from copies of materials from this site.
+            </p>
+            <p>
+                5.4. <strong>Breaching the Terms of Service</strong>. If you print, copy,
+                modify, download or otherwise use or provide any other person with access
+                to any part of the Website and the Application in breach of the Terms of
+                Service, your right to use the Website and the Application will cease
+                immediately and you must, at our option, return or destroy any copies of
+                the materials you have made. No right, title or interest in or to the
+                Website and the Application or any content on the Website and the
+                Application is transferred to you, and all rights not expressly granted to
+                you herein are reserved by Startender.
+            </p>
+            <p>
+                <strong>VI. Trademarks</strong>
+            </p>
+            <p>
+                The Startender name and all related names, logos, product and service
+                names, designs and slogans are trademarks of Startender or its affiliates
+                or licensors. You must not use such marks without the prior written
+                permission of Startender. All other names, logos, product and service
+                names, designs and slogans on this Website and the Application are the
+                trademarks of their respective owners.
+            </p>
+            <p>
+                <strong>VII. Prohibited Uses</strong>
+            </p>
+            <p>
+                7.1. <strong>Prohibited Uses</strong>. You may use the Website and the
+                Application only for lawful purposes and in accordance with these Terms of
+                Service. You agree not to use the Website and the Application:
+            </p>
+            <p>
+                (a) in any way that violates any applicable federal, state, local or
+                international law or regulation (including, without limitation, any laws
+                regarding the export of data or software to and from the US or other
+                countries);
+            </p>
+            <p>
+                (b) for the purpose of exploiting, harming or attempting to exploit or harm
+                minors in any way by exposing them to inappropriate content, asking for
+                personally identifiable information or otherwise;
+            </p>
+            <p>
+                (c) to stalk, abuse, use profanity, send sexually explicit communication,
+                threaten, intimidate, act in a rude, vulgar, sexist, or derogatory manner,
+                defame, insult, make racially offensive statements, or otherwise harass any
+                user or other individual;
+            </p>
+            <p>
+                (d) to send, knowingly receive, upload, download on the Website and the
+                Application, use or re-use any material which does not comply with the
+                Content Standards set out in these Terms.
+            </p>
+            <p>
+                (e) to transmit, or procure the sending of, any advertising or promotional
+                material without our prior written consent, including any “junk mail”,
+                “chain letter” or “spam” or any other similar solicitation.
+            </p>
+            <p>
+                (f) to impersonate or attempt to impersonate Startender, a Startender
+                employee, another user or any other person or entity (including, without
+                limitation, by using e-mail addresses associated with any of the
+                foregoing).
+            </p>
+            <p>
+                (g) to engage in any other conduct that restricts or inhibits anyone’s use
+                or enjoyment of the Website and the Application, or which, as determined by
+                us, may harm Startender or users of the Website and the Application or
+                expose them to liability.
+            </p>
+            <p>
+                (h) Not to solicit other Users of the Website and the Application into
+                engaging into an illegal and unlawful activities and not to conspire with
+                other users into soliciting or committing such activities;
+            </p>
+            <p>
+                (i) to ask other users or any third parties for sexual favors through the
+                Website and/or the Application.
+            </p>
+            <p>
+                7.2. <strong>Additionally, you agree not to</strong>:
+            </p>
+            <p>
+                (a) use the Website and the Application in any manner that could disable,
+                overburden, damage, or impair the Website and the Aplication or interfere
+                with any other party’s use of the Website and the Application, including
+                their ability to engage in real time activities through the Website and the
+                Application.
+            </p>
+            <p>
+                (b) use any robot, spider or other automatic device, process or means to
+                access the Website and the Application for any purpose, including
+                monitoring or copying any of the material on the Website and the
+                Application.
+            </p>
+            <p>
+                (c) use any manual process to monitor or copy any of the material on the
+                Website and the Application or for any other unauthorized purpose without
+                our prior written consent.
+            </p>
+            <p>
+                (d) use any device, software or routine that interferes with the proper
+                working of the Website and the Application; introduce any viruses, trojan
+                horses, worms, logic bombs or other material which is malicious or
+                technologically harmful.
+            </p>
+            <p>
+                (e) attempt to gain unauthorized access to, interfere with, damage or
+                disrupt any parts of the Website and the Application, the server on which
+                the Website and the Application are stored, or any server, computer or
+                database connected to the Website and the Application.
+            </p>
+            <p>
+                (f) attack the Website and he Application via a denial-of-service attack or
+                a distributed denial-of-service attack. Otherwise attempt to interfere with
+                the proper working of the Website and the Application.
+            </p>
+            <p>
+                (g) modify, adapt, sublicense, translate, sell, reverse engineer, decipher,
+                decompile or otherwise disassemble any portion of the Website or any
+                software used on or for the Service or the Website, or cause others to do
+                so.
+            </p>
+            <p>
+                (f) forge headers or otherwise manipulate identifiers in order to disguise
+                the origin of any information transmitted to or through the Website or the
+                Application (either directly or indirectly through use of third party
+                software);
+            </p>
+            <p>
+                (h) use meta tags or code or other devices containing any reference to
+                Startender, the Website or the Application to direct any person to any
+                other website for any purpose;
+            </p>
+            <p>
+                (i) use the Website and the Application for cross site scripting, SQL
+                injection and/or session Hijaking;
+            </p>
+            <p>
+                (j) tap into other users' audio and video conversations.
+            </p>
+            <p>
+                <strong></strong>
+                <br/>
+            </p>
+            <p>
+                <strong>VIII. User Contributions</strong>
+            </p>
+            <p>
+                8.1. <strong>User Contributions Defined</strong>. The Website and the
+                Application may contain leaderboards, personal profiles, forums, bulletin
+            boards, and other interactive features (collectively, "    <strong>Interactive Services</strong>") that allow users to post, submit,
+                publish, display or transmit and send messages to other users or other
+            persons (hereinafter, "post") content or materials (collectively, "    <strong>User Contributions</strong>") on or through the Website and the
+                Application.
+            </p>
+            <p>
+                8.2. <strong>Compliance with the Terms of Service</strong>. All User
+                Contributions must comply with the Content Standards set out in these Terms
+                of Service.
+            </p>
+            <p>
+                8.3. <strong>License to User Contribution</strong>. Any User Contribution
+                you post to the site will be considered non-confidential and
+                non-proprietary. By providing any User Contribution on the Website and the
+                Application, you grant us and our affiliates and service providers, and
+                each of their and our respective licensees, successors and assigns the
+                exclusive, unlimited, transferable, sub-licenseable worldwide right to use,
+                reproduce, modify, perform, display, distribute and otherwise disclose to
+                third parties any such material for any purpose/according to your account
+                settings.
+            </p>
+            <p>
+                8.4. <strong>User Representation and Warranties</strong>. You represent and
+                warrant that:
+            </p>
+            <p>
+                (a) You own or control all rights in and to the User Contributions and have
+                the right to grant the license granted above to us and our affiliates and
+                service providers, and each of their and our respective licensees,
+                successors and assigns.
+            </p>
+            <p>
+                (b) All of your User Contributions do and will comply with these Terms of
+                Service. You understand and acknowledge that you are responsible for any
+                User Contributions you submit or contribute, and you, not Startender, have
+                full responsibility for such content, including its legality, reliability,
+                accuracy and appropriateness.
+            </p>
+            <p>
+                (c) That you will not provide your account details and log-in information
+                to third parties and that you will not log into the Website and the
+                Application through another user's account.
+            </p>
+            <p>
+                8.5. <strong>Startender Not Liable for User Contributions</strong>. We are
+                not responsible, or liable to a user or any third party, for the content or
+                accuracy of any User Contributions posted by you or any other user of the
+                Website and the Application.
+            </p>
+            <p>
+                <strong>IX. Monitoring and Enforcement; Termination</strong>
+            </p>
+            <p>
+                9.1. <strong>Enforcement</strong>. Based on a report by any of our
+                community members or in our sole discretion when deemed necessary, we have
+                the right to:
+            </p>
+            <p>
+                (a) remove any User Contributions for any or no reason in our sole
+                discretion.
+            </p>
+            <p>
+                (b) take any action with respect to any User Contribution that we deem
+                necessary or appropriate in our sole discretion, including if we believe
+                that such User Contribution violates the Terms of Service, including the
+                Content Standards, set out in Sec. 10.1.and 10.2 below, infringes any
+                intellectual property right, right of publicity or other right of any
+                person or entity, threatens the personal safety of users of the Website and
+                the Application or the public or could create liability for Startender.
+            </p>
+            <p>
+                (b) disclose your identity or other information about you to any third
+                party who claims that material posted by you violates their rights,
+                including their intellectual property rights or their right to privacy.
+            </p>
+            <p>
+                (c) take appropriate legal action, including without limitation, referral
+                to law enforcement, for any illegal or unauthorized use of the Website and
+                the Application.
+            </p>
+            <p>
+                (d) terminate or suspend your access to all or part of the Website and the
+                Application for any reason, including without limitation, any violation of
+                these Terms of Service.
+            </p>
+            <p>
+                (e) without limiting the foregoing, we have the right to fully cooperate
+                with any law enforcement authorities or court order requesting or directing
+                us to disclose the identity or other information of anyone posting any
+                materials on or through the Website and the Application. YOU WAIVE AND HOLD
+                HARMLESS STARTENDER AND ITS AFFILIATES, LICENSEES AND SERVICE PROVIDERS
+                FROM ANY CLAIMS RESULTING FROM ANY ACTION TAKEN BY STARTENDER/ANY OF THE
+                FOREGOING PARTIES DURING OR AS A RESULT OF ITS INVESTIGATIONS AND FROM ANY
+                ACTIONS TAKEN AS A CONSEQUENCE OF INVESTIGATIONS BY EITHER STARTENDER/SUCH
+                PARTIES OR LAW ENFORCEMENT AUTHORITIES.
+            </p>
+            <p>
+                9.2. <strong>No Liability</strong>. We do not undertake to review the
+                material before it is posted on the Website and the Application, and cannot
+                ensure prompt removal of objectionable material after it has been posted.
+                Accordingly, we assume no liability for any action or inaction regarding
+                transmissions, communications or content provided by any user or third
+                party. We have no liability or responsibility to anyone for performance or
+                nonperformance of the activities described in this section.
+            </p>
+            <p>
+                <strong>X. Content Standards</strong>
+            </p>
+            <p>
+                10.1. <strong>Content Standards</strong>. These content standards apply to
+                any and all User Contributions and use of Interactive Services. User
+                Contributions must in their entirety comply with all applicable federal,
+                state, local and international laws and regulations. Without limiting the
+                foregoing, User Contributions must not:
+            </p>
+            <p>
+                (a) contain any material which is defamatory, obscene, indecent, abusive,
+                offensive, harassing, violent, hateful, inflammatory or otherwise
+                objectionable;
+            </p>
+            <p>
+                (b) promote sexually explicit or pornographic material, violence, or
+                discrimination based on race, sex, religion, nationality, disability,
+                sexual orientation or age;
+            </p>
+            <p>
+                (c) infringe any patent, trademark, trade secret, copyright or other
+                intellectual property or other rights of any other person;
+            </p>
+            <p>
+                (d) violate the legal rights (including the rights of publicity and
+                privacy) of others or contain any material that could give rise to any
+                civil or criminal liability under applicable laws or regulations or that
+                otherwise may be in conflict with these Terms of Service and our Privacy
+                Policy;
+            </p>
+            <p>
+                (e) be likely to deceive any person;
+            </p>
+            <p>
+                (f) promote any illegal activity, or advocate, promote or assist any
+                unlawful act;
+            </p>
+            <p>
+                (g) cause annoyance, inconvenience or needless anxiety or be likely to
+                upset, embarrass, alarm or annoy any other person;
+            </p>
+            <p>
+                (h) impersonate any person, or misrepresent your identity or affiliation
+                with any person or organization;
+            </p>
+            <p>
+                (i) involve commercial activities or sales, such as contests, sweepstakes
+                and other sales promotions, barter or advertising;
+            </p>
+            <p>
+                (j) give the impression that they emanate from or are endorsed by us or any
+                other person or entity, if this is not the case.
+            </p>
+            <p>
+                10.2. <strong>No Irrelevant Messages form Professionals to Users</strong>.
+                In addition to the standards set out in Sec. 10.1, Professionals must not
+                send unwanted and irrelevant messages to Users unrelated to their
+                professional services.
+            </p>
+            <p>
+                10.3. <strong>Content not meeting the standards</strong>. Any content not
+                meeting the above standards will be promptly removed according to Sec. IX.
+            </p>
+            <p>
+                <strong>XI. Social Media Features and Linking.</strong>
+            </p>
+            <p>
+                11.1. <strong>Social Media</strong>. This Website and the Application may
+                provide certain social media features that enable you to:
+            </p>
+            <p>
+                (a) sign or log in through your social media profile into this Website and
+                Application;
+            </p>
+            <p>
+                (b) send e-mails or other communications with certain content, or links to
+                certain content, on this Website and the Application;
+            </p>
+            <p>
+                (c) cause limited portions of content on this Website and the Application
+                to be displayed or appear to be displayed on your own or certain
+                third-party social media profiles;
+            </p>
+            <p>
+                (d) you may use these features solely as they are provided by us and solely
+                with respect to the content they are displayed with and otherwise in
+                accordance with any additional terms and conditions we provide with respect
+                to such features.
+            </p>
+            <p>
+                11.2. <strong>Unauthorized Framing or Linking</strong>. You agree to
+                cooperate with us in causing any unauthorized framing or linking
+                immediately to cease. We reserve the right to withdraw linking permission
+                without notice. We may disable all or any social media features and any
+                links at any time without notice in our discretion.
+            </p>
+            <p>
+                11.3. <strong>Linking from the Website and the Application</strong>. We doe
+                not take responsibility and do not endorse any third party websites,
+                services and content available on or linked to by the Website and the
+                Application.
+            </p>
+            <p>
+                <strong>XII. In-app Purchases.</strong>
+            </p>
+            <p>
+                12.1. <strong>In-app Purchases</strong>.
+            </p>
+            <p>
+                (a) As an application feature you will have an option to make in-app
+                purchases for additional features such as 24-hour spotlight and 24-hour
+                banners placed by bartenders, User purchased credits for Professionals,
+                etc. The fees for all in-app purchases will be collected by Apple (for iOS
+                devices) and Google (for Android devices) who will be acting as our billing
+                service providers in that case. You will be asked to provide a current,
+                valid, accepted method of payment (as such may be updated from time to
+                time, the "Payment Method") in order to complete the in-app purchase. You
+                acknowledge that all payments submitted by you shall be governed and
+                executed by Apple and Google in accordance with their own terms of
+                use/service.
+            </p>
+            <p>
+                (b) All in-app fees shall be exclusive of all applicable government, state,
+                provincial, municipal or other taxes which you agree to pay based on where
+                the you are primarily domiciled. In addition to any fees charged for the
+                in-app purchase, you may still incur charges incidental to using our
+                products or services such as charges for Internet access, data roaming, and
+                other data transmission charges.
+            </p>
+            <p>
+                12.2.
+                <strong>
+                    Payment Processing. All payments will be processed by the billing
+                    service providers Apple and Google and payment processing shall be
+                    subject to their terms of service and privacy policies.
+                </strong>
+            </p>
+            <p>
+                12.3. <strong>No Cashing and Refunds.</strong> Users shall not have the
+                option to cash or refund any of the credits or other features purchased
+                using the Application.
+            </p>
+            <p>
+                <strong>XIII. Copyright Infringement.</strong>
+            </p>
+            <p>
+                13.1. <strong>Reporting Claims to Copyright Infringements</strong>. We take
+                claims of copyright infringement seriously. We will respond to notices of
+                alleged copyright infringement that comply with applicable law. If you
+                believe any materials accessible on or from the Website and the Application
+                infringe your copyright, you may request removal of those materials (or
+                access thereto) from the Website and the Application by submitting written
+                notification to our Copyright Agent (designated below), which must include
+                substantially the following:
+            </p>
+            <p>
+                (a) Your physical or electronic signature.
+            </p>
+            <p>
+                (b) Identification of the copyrighted work you believe to have been
+                infringed or, if the claim involves multiple works on the Website and the
+                Application, a representative list of such works.
+            </p>
+            <p>
+                (c) Identification of the material you believe to be infringing in a
+                sufficiently precise manner to allow us to locate that material.
+            </p>
+            <p>
+                (d) Adequate information by which we can contact you (including your name,
+                postal address, telephone number and, if available, e-mail address).
+            </p>
+            <p>
+                (e)A statement that you have a good faith belief that use of the
+                copyrighted material is not authorized by the copyright owner, its agent or
+                the law.
+            </p>
+            <p>
+                (f) A statement that the information in the written notice is accurate.
+            </p>
+            <p>
+                (g) A statement, under penalty of perjury, that you are authorized to act
+                on behalf of the copyright owner.
+            </p>
+            <p>
+                Our designated Copyright Agent to receive such written notifications is:
+            </p>
+            <p>
+                Kyla Lam
+            </p>
+            <p>
+                <strong>Email</strong>
+                : <strong><em>Hey@StartenderApp.com</em></strong>
+            </p>
+            <p>
+                Please be aware that if you knowingly materially misrepresent that material
+                or activity on the Website and the Application is infringing your
+                copyright, you may be held liable for damages.
+            </p>
+            <p>
+                13.2. <strong>Counter-Notification Procedures</strong>. If you believe that
+                material you posted on the Website and the Application was removed or
+                access to it was disabled by mistake or misidentification, you may file a
+                counter-notification with us ("<strong>Counter-Notice</strong>") by
+                submitting written notification to our copyright agent (identified below).
+                The Counter-Notice must include substantially the following:
+            </p>
+            <p>
+                (a) Your physical or electronic signature.
+            </p>
+            <p>
+                (b) An identification of the material that has been removed or to which
+                access has been disabled and the location at which the material appeared
+                before it was removed or access disabled.
+            </p>
+            <p>
+                (c) Adequate information by which we can contact you (including your name,
+                postal address, telephone number and, if available, e-mail address).
+            </p>
+            <p>
+                (d) A statement under penalty of perjury by you that you have a good faith
+                belief that the material identified above was removed or disabled as a
+                result of a mistake or misidentification of the material to be removed or
+                disabled.
+            </p>
+            <p>
+                (e) A statement that you will consent to the jurisdiction of any judicial
+                district in which the Website and the Application may be found and that you
+                will accept service from the person (or an agent of that person) who
+                provided the Website and the Application with the complaint at issue.
+            </p>
+            <p>
+                Completed Counter-Notices should be sent to:
+            </p>
+            <p>
+                Kyla Lam
+            </p>
+            <p>
+                <strong> Email: </strong>
+                <strong><em>Hey@StartenderApp.com</em></strong>
+            </p>
+            <p>
+                We reserve the right to restore the removed content if the party filing the
+                original Notice does not file a court action against you within ten
+                business days of receiving the copy of your Counter-Notice.
+            </p>
+            <p>
+                Please be aware that if you knowingly materially misrepresent that material
+                or activity on the Website and the Application was removed or disabled by
+                mistake or misidentification, you may be held liable for damages.
+            </p>
+            <p>
+                <strong>XIV. Disclaimer of Warranties.</strong>
+            </p>
+            <p>
+                <strong></strong>
+                <br/>
+            </p>
+            <p>
+                14.1. <strong>No Liability for Technologically Harmful Materia</strong>l.
+                You understand that we cannot and do not guarantee or warrant that files
+                available for downloading from the internet or the Website and the
+                Application will be free of viruses or other destructive code. You are
+                responsible for implementing sufficient procedures and checkpoints to
+                satisfy your particular requirements for anti-virus protection and accuracy
+                of data input and output, and for maintaining a means external to our site
+                for any reconstruction of any lost data. WE WILL NOT BE LIABLE FOR ANY LOSS
+                OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES OR
+                OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER
+                EQUIPMENT, COMPUTER PROGRAMS, DATA OR OTHER PROPRIETARY MATERIAL DUE TO
+                YOUR USE OF THE WEBSITE AND THE APPLICATION OR ANY SERVICES OR ITEMS
+                OBTAINED THROUGH THE WEBSITE AND THE APPLICATION OR TO YOUR DOWNLOADING OF
+                ANY MATERIAL POSTED ON IT, OR ON ANY WEBSITE AND THE APPLICATION LINKED TO
+                IT.
+            </p>
+            <p>
+                14.2. <strong>Disclaimer of Warranties</strong>. YOUR USE OF THE WEBSITE
+                AND THE APPLICATION, ITS CONTENT AND ANY SERVICES OR ITEMS OBTAINED THROUGH
+                THE WEBSITE AND THE APPLICATION IS AT YOUR OWN RISK. THE WEBSITE AND THE
+                APPLICATION, ITS CONTENT AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE
+                WEBSITE AND THE APPLICATION ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE"
+                BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+                NEITHER STARTENDER NOR ANY PERSON ASSOCIATED WITH STARTENDER MAKES ANY
+                WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY,
+                RELIABILITY, QUALITY, ACCURACY OR AVAILABILITY OF THE WEBSITE AND THE
+                APPLICATION. WITHOUT LIMITING THE FOREGOING, NEITHER STARTENDER NOR ANYONE
+                ASSOCIATED WITH STARTENDER REPRESENTS OR WARRANTS THAT THE WEBSITE AND THE
+                APPLICATION, ITS CONTENT OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE
+                WEBSITE AND THE APPLICATION WILL BE ACCURATE, RELIABLE, ERROR-FREE OR
+                UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT OUR SITE OR THE SERVER
+                THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR
+                THAT THE WEBSITE AND THE APPLICATION OR ANY SERVICES OR ITEMS OBTAINED
+                THROUGH THE WEBSITE AND THE APPLICATION WILL OTHERWISE MEET YOUR NEEDS OR
+                EXPECTATIONS.
+            </p>
+            <p>
+                STARTENDER HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR
+                IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY
+                WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT AND FITNESS FOR PARTICULAR
+                PURPOSE.
+            </p>
+            <p>
+                THE FOREGOING DOES NOT AFFECT ANY WARRANTIES WHICH CANNOT BE EXCLUDED OR
+                LIMITED UNDER APPLICABLE LAW.
+            </p>
+            <p>
+                <strong>XV. Limitation of Liability.</strong>
+            </p>
+            <p>
+                IN NO EVENT WILL STARTENDER, ITS AFFILIATES OR THEIR LICENSORS, SERVICE
+                PROVIDERS, EMPLOYEES, AGENTS, OFFICERS OR DIRECTORS BE LIABLE FOR DAMAGES
+                OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH
+                YOUR USE, OR INABILITY TO USE, THE WEBSITE AND THE APPLICATION, ANY
+                WEBSITES AND THE APPLICATION LINKED TO IT, ANY CONTENT ON THE WEBSITE AND
+                THE APPLICATION OR SUCH OTHER WEBSITES OR ANY SERVICES OR ITEMS OBTAINED
+                THROUGH THE WEBSITE AND THE APPLICATION OR SUCH OTHER WEBSITES, INCLUDING
+                ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE
+                DAMAGES, INCLUDING BUT NOT LIMITED TO, PERSONAL INJURY, PAIN AND SUFFERING,
+                EMOTIONAL DISTRESS, LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR
+                ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, AND
+                WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT OR
+                OTHERWISE, EVEN IF FORESEEABLE.
+            </p>
+            <p>
+                THE FOREGOING DOES NOT AFFECT ANY LIABILITY WHICH CANNOT BE EXCLUDED OR
+                LIMITED UNDER APPLICABLE LAW.
+            </p>
+            <p>
+                <strong>XVI. Indemnification.</strong>
+            </p>
+            <p>
+                You agree to defend, indemnify and hold harmless Startender, its
+                affiliates, licensors and service providers, and its and their respective
+                officers, directors, employees, contractors, agents, licensors, suppliers,
+                successors and assigns from and against any claims, liabilities, damages,
+                judgments, awards, losses, costs, expenses or fees (including reasonable
+                attorneys’ fees) arising out of or relating to your violation of these
+                Terms of Service or your use of the Website and the Application, including,
+                but not limited to, your User Contributions, any use of the Website’s and
+                the Application’s content, services and products other than as expressly
+                authorized in these Terms of Service or your use of any information
+                obtained from the Website and the Application.
+            </p>
+            <p>
+                <strong>XVII. Miscellaneous.</strong>
+            </p>
+            <p>
+                17.1. <strong>Governing Law and Jurisdiction</strong>. All matters relating
+                to the Website and the Application and these Terms of Service and any
+                dispute or claim arising therefrom or related thereto (in each case,
+                including non-contractual disputes or claims), shall be governed by and
+                construed in accordance with the internal laws of the State of California
+                without giving effect to any choice or conflict of law provision or rule
+                (whether of the State of California or any other jurisdiction).
+            </p>
+            <p>
+                Any legal suit, action or proceeding arising out of, or related to, these
+                Terms of Service or the Website and the Application shall be instituted
+                exclusively in the federal courts of the United States or the courts of the
+                State of California although we retain the right to bring any suit, action
+                or proceeding against you for breach of these Terms of Service in your
+                country of residence or any other relevant country. You waive any and all
+                objections to the exercise of jurisdiction over you by such courts and to
+                venue in such courts.
+            </p>
+            <p>
+                17.2. <strong>Waiver and Severability</strong>. No waiver by Startender of
+                any term or condition set forth in these Terms of Service shall be deemed a
+                further or continuing waiver of such term or condition or a waiver of any
+                other term or condition, and any failure of Startender to assert a right or
+                provision under these Terms of Service shall not constitute a waiver of
+                such right or provision.
+            </p>
+            <p>
+                If any provision of these Terms of Service is held by a court or other
+                tribunal of competent jurisdiction to be invalid, illegal or unenforceable
+                for any reason, such provision shall be eliminated or limited to the
+                minimum extent such that the remaining provisions of the Terms of Service
+                will continue in full force and effect.
+            </p>
+            <p>
+                17.3. <strong>Entire Agreement</strong>. The Terms of Service and our
+                Privacy Policy constitute the sole and entire agreement between you and
+                Startender with respect to the Website and the Application and supersede
+                all prior and contemporaneous understandings, agreements, representations
+                and warranties, both written and oral, with respect to the Website and the
+                Application.
+            </p>
+            <p>
+                17.4. <strong>Amendments</strong>. Please note that we reserve the right to
+                revise and update these ToS from time to time in our sole discretion. All
+                changes are effective immediately when we post them, and apply to all
+                access to and use of the Website and Application thereafter.
+            </p>
+            <p>
+                17.5. <strong>Your Comments and Concerns</strong>. This website is operated
+                by
+            </p>
+            <p>
+                Startender, Inc.
+            </p>
+            <p>
+                30 Mission Street, # 8H,
+            </p>
+            <p>
+                San Francisco, CA, 94105
+            </p>
+            <p>
+                United States
+            </p>
+            <p>
+                All feedback, comments, requests for technical support and other
+            communications regarding the Website and the Application should be sent to:    <strong><em>Hey@StartenderApp.com</em></strong>
+            </p>
+            <p>
+                Thank you for visiting the Website and the Application.
+            </p>
+            <p>
+                Last Updated: July 9, 2019
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Blog post list section -->
+
+    <!-- Dark footer -->
+    <footer id="dark-footer" class="footer footer-light">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>Startender App</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="https"//startenderapp.com/#">Startender App</a></li>
+                <li><a href="https"//startenderapp.com/#managers">For Managers</a></li>
+                <li><a href="https"//startenderapp.com/#bartenders">For Bartenders</a></li>
+                <li><a href="https"//startenderapp.com/#business-types">For Customers</a></li>
+                <li><a href="#">Get Notified</a></li>
+                <li>
+                  <a href="mailto:heystartender@startenderapp.com"
+                    >Keep in touch</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>For</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="#bartenders">Bartenders</a></li>
+                <li><a href="#bartenders">Bottle Service</a></li>
+                <li><a href="#bartenders">Baristas</a></li>
+                <li><a href="#managers">Managers</a></li>
+                <li><a href="#business-types">Community</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>Privacy</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="https://startenderapp.com/privacy.html">Privacy policy</a></li>
+                <li><a href="https://startenderapp.com/terms.html">Terms</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <img
+                  src="assets/images/logos/startenderlogo-withtext.svg"
+                  style="height: 120px; width: auto;"
+                  alt="Startender App"
+                />
+              </div>
+              <div class="footer-header">
+                <nav class="level is-mobile">
+                  <div class="level-left level-social">
+                    <a
+                      href="mailto:heystartender@startenderapp.com"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-envelope"></i></span>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/StartenderApp"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-facebook"></i></span>
+                    </a>
+                    <a
+                      href="https://instagram.com/startenderapp"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-twitter"></i></span>
+                    </a>
+                    <a
+                      href="https://twitter.com/heystartender"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-instagram"></i></span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Side navigation -->
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Concatenated jQuery and plugins -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Bulkit js -->
+    <script src="assets/js/startup.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
