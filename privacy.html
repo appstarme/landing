@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>
+      Startender App :: Blog
+    </title>
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta
+      name="keywords"
+      content="bartender, local, startender, bottle service, community, bar, drink, nightlife, night out, barista"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:image:width" content="90" />
+    <meta property="og:image:height" content="90" />
+    <meta
+      property="og:description"
+      content="Imagine a world where you know someone who works in every bar, restaurant and nightlife. startenders can reach out and send you special deals daily, invite you in for a drink, get you access to clubs and most importantly establish human connection!"
+    />
+    <meta
+      property="og:title"
+      content="Startender App - Find Your Local Startenders"
+    />
+    <meta property="og:url" content="https://startenderapp.com" />
+    <meta property="og:image" content="https://startenderapp.com/og.jpg" />
+
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/bulma.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/core.css" />
+    <style>
+      .startender-font-color {
+        color: #49cfd8 !important;
+      }
+      .startender-color {
+        background-color: #49cfd8 !important;
+      }
+      .startender-color-border {
+        border-color: #49cfd8 !important;
+      }
+      .startender-gradient {
+        background: linear-gradient(to top, #60dee4, #49cfd8) !important;
+      }
+      .startender-gradient-border {
+        border-color: linear-gradient(to top, #60dee4, #49cfd8) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pageloader startender-color startender-gradient"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Hero (Parallax) and nav -->
+    <div
+    class="hero parallax is-cover is-relative is-default is-bold"
+    data-background="assets/images/background.jpg"
+    data-color="#000"
+    data-color-opacity="0.3"
+    data-position-x="center"
+    data-demo-background="assets/images/startup/startup.jpg"
+    >
+      <nav
+        class="navbar navbar-wrapper navbar-fade navbar-light is-transparent"
+      >
+        <div class="container">
+          <!-- Brand -->
+          <div class="navbar-brand">
+            <a
+              class="navbar-item"
+              href="/"
+              style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+            >
+              <img
+                src="assets/images/logos/startenderlogo.svg"
+                style="height: 3.2rem!important; max-height: 3.2rem!important; width: auto;"
+                alt="Startender App"
+              />
+            </a>
+
+            <!-- Responsive toggle -->
+            <div class="custom-burger" data-target="">
+              <a id="" class="responsive-btn" href="javascript:void(0);">
+                <span class="menu-toggle">
+                  <span class="icon-box-toggle">
+                    <span class="rotate">
+                      <i class="icon-line-top"></i>
+                      <i class="icon-line-center"></i>
+                      <i class="icon-line-bottom"></i>
+                    </span>
+                  </span>
+                </span>
+              </a>
+            </div>
+            <!-- /Responsive toggle -->
+          </div>
+
+          <!-- Navbar menu -->
+          <div class="navbar-menu">
+            <!-- Navbar Start -->
+            <div class="navbar-start">
+              <div class="navbar-item is-active">
+                <a
+                  href="./about.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  About
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  href="./blog.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  Blog
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  href="./merch.html"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  Merchandise
+                </a>
+              </div>
+            </div>
+
+            <!-- Navbar end -->
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a
+                  href="mailto:heystartender@startenderapp.com"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-envelope"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/StartenderApp"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://twitter.com/heystartender"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-twitter"></i></span>
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a
+                  target="_blank"
+                  href="https://instagram.com/startenderapp"
+                  class="level-item btn-align light-btn startender-font-color"
+                >
+                  <span class="icon"><i class="fa fa-instagram"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero text -->
+      <div id="main-hero" class="hero-body pt-80 pb-80">
+        <div class="container has-text-centered">
+          <div class="columns is-vcentered">
+            <div class="column is-6 is-offset-3 has-text-centered">
+              <h1 class="title main-title text-bold is-2">
+                Privacy Policy
+              </h1>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Hero text -->
+    </div>
+    <!-- /Hero and nav -->
+<!-- Blog post list section -->
+<section class="section is-medium blog-section section-light-grey">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+              <p>
+                <strong>Privacy Policy</strong>
+            </p>
+            <p>
+            This Privacy Policy (the "<strong>Privacy Policy</strong>" or the "    <strong>Policy</strong>") provides our policies on the collection, storage,
+                processing, use, and disclosure of information about users established by
+            Startender, Inc. ("<strong>Startender</strong>", "<strong>we</strong>", "    <strong>our</strong>" or "<strong>us</strong>") regarding the information
+            that we collect through the website startenderapp.com (the "    <strong>Website</strong>") and through the mobile application Startender
+                (the "<strong>Application</strong>"), through e-mail and/or other
+                electronic communication between you and us.
+            </p>
+            <p>
+                Before using the Website and the Application, you need to consent to our
+                collection, use, and disclosure of information about you as described in
+                this Policy.
+            </p>
+            <p>
+                <strong>Minimum Required Age.</strong>
+            </p>
+            <p>
+                The Website and the Application are not intended for use by users under 14
+                years of age. No one under age 14 may provide any personal information
+                trough the Website and the Application. If we learn we have collected or
+                received personal information from a user under 14, we will delete it
+                immediately.
+            </p>
+            <p>
+                <strong>Information we collect.</strong>
+            </p>
+            <p>
+                <strong>1. </strong>
+                <strong>
+                    Personal information and Non-personally identifiable information
+                    defined.
+                </strong>
+            </p>
+            <p>
+                <em>Personal information</em>
+                is any information that can be used to identify you as an individual.
+            </p>
+            <p>
+                <em>Non-personally identifiable information</em>
+                - information that cannot be used to identify you as an individual, such as
+                personal interests, dietary requirements, special requests and others.
+            </p>
+            <p>
+                We collect both personal and non-personally identifiable information
+                through the Website and the Application.
+            </p>
+            <p>
+                <strong>2. Account information</strong>
+                . In order to create an account, you will be asked to provide personal
+                information, such as your first and last name (optional), your e-mail
+                address and a personal photograph. If you choose to use Facebook or
+                Instagram to log into our Website or Application, we will have access to
+                and may collect information that you have provided on your Facebook and
+                Instagram accounts. Upon your account creation you will be prompted to
+                create a screen name, which depending on the name, may or may not be used
+                to identify you as an individual. Professionals will also provide place of
+                work, including location.
+            </p>
+            <p>
+                3. <strong>Transactions</strong>. While you use/ navigate through our
+                Website and Application, we may automatically collect certain information
+                about your equipment, browsing actions and patterns, including but not
+                limited to: details of your visits to our Website and Application,
+                including traffic data, location data, logs and other; your search queries;
+                communication data; information about your device and internet connection,
+                including your IP address and location, operating system and browser type.
+            </p>
+            <p>
+                4. <strong>Publicly available content</strong>. Some of the contributions
+                you submit to our Website and Application, are intended for public use and
+                are therefore viewable by the public, this may include your photos (if you
+                have provided such), leaderboards, ratings, reviews, tips, lists,
+                promotions, business listing information, etc. You may limit the public
+                nature of some of these activities through your account settings, however
+                you will not be able to completely remove them.
+            </p>
+            <p>
+                5. <strong>Contacts</strong>. Our Website and Application allow users
+                (service providers) to invite others to join or become their followers on
+                Startender by providing their contact information, or by allowing users to
+                access their contacts details, photos, location, business establishment,
+                etc. If you allow us to access your contacts, we may transmit that
+                information to our servers long enough to process your invitations.
+            </p>
+            <p>
+                6. <strong>Activity</strong>. While you use the services provide by our
+                Website and Application, we may store information about your use of our
+                services, such as your search activity, the pages you view, the date and
+                time of your visit, businesses you call using our mobile applications, and
+                reservations, purchases, or transactions you make through the Service. We
+                may also store information that your computer or mobile device may provide
+                to us in connection with your use of our services, WiFi information such as
+                SSID, mobile carrier, phone number and unique device identifier.
+            </p>
+            <p>
+                <strong>Cookies and other tracking technologies</strong>
+            </p>
+            <p>
+                We do not use cookies and tracking technologies and we do not collect any
+                data from you through cookies and tracking technologies.
+            </p>
+            <p>
+                <strong>How we collect your personal information</strong>
+                .
+            </p>
+            <p>
+                Startender collects information upon your subscription to our services and
+                also when you interact with us electronically or in person, when you access
+                and use our Website and Application and when we provide our services to
+                you.
+            </p>
+            <p>
+                <strong>Why we collect and process your personal information</strong>
+                .
+            </p>
+            <p>
+                We collect your personal information based on your explicit consent you
+                have provided for the processing of you personal data and for the purpose
+                of providing you with our services.
+            </p>
+            <p>
+                Additionally when you buy a product or service from us, or otherwise agree
+                to our terms and conditions, a contract is formed between you and us. In
+                order to carry out our obligations under that contract we must process the
+                information you give us. We process this information on the basis the
+                contract between us. We will continue to processing this information until
+                the contract between us ends or is terminated by either party. We may also
+                process person information where such processing is in our legitimate
+                interests and is not overridden by your data protection interests or
+                fundamental rights and freedoms.
+            </p>
+            <p>
+                <strong>How we use your information</strong>
+            </p>
+            <p>
+                (1) We will use your personal information:
+            </p>
+            <p>
+                - to respond to your queries;
+            </p>
+            <p>
+                - to provide you with our services and products;
+            </p>
+            <p>
+                - to administer your account with us;
+            </p>
+            <p>
+                - to notify you about changes to our Website and Application, including
+                this privacy policy, our Terms of Service;
+            </p>
+            <p>
+                - to evaluate and improve the quality of our services;
+            </p>
+            <p>
+                - to detect and prevent fraud and investigate, or identify possible
+                wrongdoing;
+            </p>
+            <p>
+                (2) We will use the non-personally identifiable information:
+            </p>
+            <p>
+                - to customize our services for you and to personalize and improve your
+                experience with our Application and Website.
+            </p>
+            <p>
+                - to analyze and understand how the visitors use the Website and the
+                Application and estimate their usage patterns.
+            </p>
+            <p>
+                - to recognize the visitors when they return to our Website;
+            </p>
+            <p>
+                <strong>How long we keep your information</strong>
+                .
+            </p>
+            <p>
+                We will retain your personal information for as long as you use our Website
+                and Application. You have the right to request that your personal
+                information is permanently removed from our system and database at any
+                time. We will accommodate such requests within 5 (five) days.
+            </p>
+            <p>
+                <strong>Information Sharing</strong>
+            </p>
+            <p>
+                We do not share personal information collected via this Website with other
+                companies or individuals. We may disclose personal and non-personally
+                identifiable information with third parties service providers, engaged by
+                us to provide technical support, hosting services, testing, network
+                security or statistical services, any such disclosure will be subject to
+                confidentiality obligations.
+            </p>
+            <p>
+                We reserve the right to disclose information from or about you if we have a
+                good faith belief that such investigation or disclosure: (a) is reasonably
+                necessary to comply with legal processes and law enforcement instructions
+                and orders, such as a search warrant, subpoena, statute, judicial
+                proceeding, or other legal process or law enforcement requests served on
+                us; (b) is helpful to prevent, investigate, or identify possible wrongdoing
+                in connection with the Website and the Application and the services we
+                provide; or (c) protects our rights, reputation, property, or that of our
+                users, affiliates, or the public. If you complain to us about content
+                submitted through the Website or the Application, we may share the
+                substance of your complaint with the contributor of that content in order
+                to provide an opportunity for the contributor to respond.
+            </p>
+            <p>
+                <strong>Security</strong>
+            </p>
+            <p>
+                We take reasonable measures and precautions designed to secure your
+                personal information from accidental loss and from unauthorized access,
+                use, alteration and disclosure. All information you provide to us is stored
+                on our secure servers behind firewalls. We restrict access to personal
+                information to employees, contractors and agents who need to know that
+                information in order to operate, develop or improve our services. These
+                individuals are bound by confidentiality obligations and may be subject to
+                discipline, including termination, if they fail to meet these obligations.
+                However, we are unable to guarantee that the security measures we take will
+                not be penetrated or compromised or that your information will remain
+                secure under all circumstances.
+            </p>
+            <p>
+                In addition we use google firebase to store out data and subsequently
+                implement all security features provided by firebase such as encryption of
+                data and security practices such restricting the access to personal date to
+                employees who have a business purpose to use the personal data.
+            </p>
+            <p>
+                The safety and security of your information also depends on you. I you have
+                a password for access to certain parts of our Website or Application, you
+                are responsible for keeping this password confidential and not sharing it
+                with anyone. We urge you to be careful about giving out information in
+                public areas of the Website and Application like message boards. The
+                information you share in public areas may be viewed by other users of
+                Startender.
+            </p>
+            <p>
+                Although we do our best to protect your personal information, the
+                transmission of information via the internet is not completely secure and
+                we cannot guarantee the security of your personal information transmitted
+                to our Website. Any transmission of personal information is at your own
+                risk.
+            </p>
+            <p>
+                <strong>Right to Access and Control Your Data</strong>
+            </p>
+            <p>
+                We provide you with many choices about the collection, use and sharing of
+                your data, from deleting or correcting data you include in your profile and
+                controlling the visibility of your posts and communication controls. We
+                will provide you with access to your personal information that we store and
+                allow you to:
+            </p>
+            <p>
+                1) Delete your data - you can request that we erase or delete all or some
+                of your personal data (e.g., if it is no longer necessary to provide
+                Services to you);
+            </p>
+            <p>
+                2) Change or correct your data - you have the option to edit some of your
+                personal data through your account. You can also ask us to change, update
+                or fix your data in certain cases, particularly if it’s inaccurate;
+            </p>
+            <p>
+                3) Object to, or limit or restrict, use of data - you can ask us to stop
+                using all or some of your personal data (e.g., if we have no legal right to
+                keep using it) or to limit our use of it (e.g., if your personal data is
+                inaccurate or unlawfully held);
+            </p>
+            <p>
+                4) Right to access and/or take your data - you can ask us for a copy of
+                your personal data and can ask for a copy of personal data you provided in
+                machine readable form.
+            </p>
+            <p>
+                You may send us an e-mail at hey@startenderapp.com to request any or all of
+                the above.
+            </p>
+            <p>
+                <strong>California Resident's Privacy Rights</strong>
+            </p>
+            <p>
+                California Civil Code Section § 1798.83 permits the users of this Website
+                that are California residents to request certain information regarding our
+                disclosure of personal information to third parties for their direct
+                marketing purposes. To make such a request, please send an e-mail to
+                hey@startenderapp.com or write us at: Startender, Inc., 30 Mission Street,
+                # 8H, San Francisco, CA, 94105, United States
+            </p>
+            <p>
+                <strong>Linking to other websites and services</strong>
+            </p>
+            <p>
+                OurWebsite may provide links to other websites and services. Please be
+                aware that if you access a website or a service through a link we provide,
+                you will be subject to the privacy policy of that site and we will not be
+                responsible for the practices and policies adopted by those websites and
+                services and we do not endorse their products and services.
+            </p>
+            <p>
+                <strong>International Users</strong>
+            </p>
+            <p>
+                Startender is a U.S. company and all information that we collect is hosted
+                in the United States. If you access the Website from the European Union,
+                Asia, or any other region with laws or regulations governing personal data
+                collection, use, and disclosure that differ from the United States laws,
+                please be advised that through your continued use of the Website or our
+                services, you may be transferring your personal information to the United
+                States and you consent to that transfer. Additionally, you understand that
+                your personal information may be processed in countries (including the
+                United States) where laws regarding processing personal information may be
+                less stringent than the data protection laws in your country. We will
+                protect your personal information according to the terms of this Privacy
+                Policy, regardless of where it is collected, processed and stored.
+            </p>
+            <p>
+                <strong>Changes to this Privacy Policy</strong>
+            </p>
+            <p>
+                Please note that this privacy policy may change from time to time. We will
+                keep you informed of any amendments that we make to this privacy policy. We
+                will post any changes that we make to our privacy policy on the Website
+                home page with a notice that the privacy policy has been updated.
+            </p>
+            <p>
+                If we make material changes to how we treat our users' personal
+                information, we will notify you by e-mail to the primary e-mail address
+                specified in your account and/or through a notice on the website home page.
+                It is your responsibility to provide us with an up-to-date e-mail address
+                for you, and for periodically visiting our website and this privacy policy
+                to check for any changes.
+            </p>
+            <p>
+                <strong>Contact information</strong>
+            </p>
+            <p>
+                If you have any additional questions or concerns about this privacy policy,
+                please feel free to contact us any time through this Website or by writing
+                to us at the following address:
+            </p>
+            <p>
+                Startender, Inc.
+            </p>
+            <p>
+                30 Mission Street, # 8H,
+            </p>
+            <p>
+                San Francisco, CA, 94105
+            </p>
+            <p>
+                United States
+            </p>
+            <p>
+                Last Updated: July 9, 2019
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Blog post list section -->
+
+    <!-- Dark footer -->
+    <footer id="dark-footer" class="footer footer-light">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>Startender App</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="https"//startenderapp.com/#">Startender App</a></li>
+                <li><a href="https"//startenderapp.com/#managers">For Managers</a></li>
+                <li><a href="https"//startenderapp.com/#bartenders">For Bartenders</a></li>
+                <li><a href="https"//startenderapp.com/#business-types">For Customers</a></li>
+                <li><a href="#">Get Notified</a></li>
+                <li>
+                  <a href="mailto:heystartender@startenderapp.com"
+                    >Keep in touch</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>For</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="#bartenders">Bartenders</a></li>
+                <li><a href="#bartenders">Bottle Service</a></li>
+                <li><a href="#bartenders">Baristas</a></li>
+                <li><a href="#managers">Managers</a></li>
+                <li><a href="#business-types">Community</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-header">
+                <h3>Privacy</h3>
+              </div>
+              <ul class="link-list">
+                <li><a href="https://startenderapp.com/privacy.html">Privacy policy</a></li>
+                <li><a href="https://startenderapp.com/terms.html">Terms</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <img
+                  src="assets/images/logos/startenderlogo-withtext.svg"
+                  style="height: 120px; width: auto;"
+                  alt="Startender App"
+                />
+              </div>
+              <div class="footer-header">
+                <nav class="level is-mobile">
+                  <div class="level-left level-social">
+                    <a
+                      href="mailto:heystartender@startenderapp.com"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-envelope"></i></span>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/StartenderApp"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-facebook"></i></span>
+                    </a>
+                    <a
+                      href="https://instagram.com/startenderapp"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-twitter"></i></span>
+                    </a>
+                    <a
+                      href="https://twitter.com/heystartender"
+                      class="level-item"
+                    >
+                      <span class="icon"><i class="fa fa-instagram"></i></span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Side navigation -->
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+    <!-- Concatenated jQuery and plugins -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Bulkit js -->
+    <script src="assets/js/startup.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
