@@ -323,6 +323,43 @@
     color: black;
 }
 
+ .blog-entries section:nth-child(even) {
+ background:#f6f6f6;
+ }
+
+ .blog-image {
+    display:block;
+    max-width:50%;
+ }
+
+ .image-right {
+    float:right;
+    margin-left:20px;
+ }
+ 
+ .image-left {
+    float:left;
+    margin-right:20px;
+ }
+ 
+ .blog-image-topmargin {
+    margin-top:20px;
+}
+ 
+.blog-title-link {
+    color:#fff;
+}
+
+.blog-title-link:hover {
+    color:#bbb;
+}
+
+
+@media screen  and (max-width: 600px) {
+ .blog-image {
+ max-width:100%;
+ }
+}
 /**
  * wallop.css
  *
