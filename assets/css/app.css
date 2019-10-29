@@ -354,11 +354,35 @@
     color:#bbb;
 }
 
+.signup-block .control {
+    width:100% !important;
+}
 
+
+ #mc_embed_signup_scroll #mc-embedded-subscribe {
+ width:auto;
+ }
+
+
+@media screen  and (min-width:601px) and (max-width: 950px) {
+  #mc_embed_signup_scroll #mc-embedded-subscribe {
+ 
+ font-size:0.8em;
+ 
+ }
+
+}
 @media screen  and (max-width: 600px) {
  .blog-image {
  max-width:100%;
  }
+ 
+ #mc_embed_signup_scroll #mc-embedded-subscribe {
+ max-width:50%;
+ font-size:0.7em;
+ 
+ }
+ 
 }
 /**
  * wallop.css
